@@ -23,9 +23,9 @@ Exemples:
 Le capteur de température et d'humidité utilisé est un module AHT10. 
 Celui-ci a besoin d'une alimentation (+3.3V et GND) et communique via un bus I2C (via les signaux SCL et SDA). 
 
-![Capteur AHT10](doc/image/AHT10_IMG1.jpg)
+![Capteur AHT10](doc/images/AHT10_IMG1.jpg)
 
-![Capteur AHT10](doc/image/AHT10_IMG2.jpg)
+![Capteur AHT10](doc/images/AHT10_IMG2.jpg)
 
 Exemple pour ESPHome:
 
@@ -40,7 +40,7 @@ Le câblage entre le LilyGo et le modue AHT10 est le suivant:
 | 21    | SCL |
 | 22    | SDA |
 
-![LilyGo avec le câblage](doc/image/LILYGO_T5_BOT.jpg)
+![LilyGo avec le câblage](doc/images/LILYGO_T5_BOT.jpg)
 
 ## Comment démarrer le contenur docker
 
