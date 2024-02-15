@@ -1,0 +1,12 @@
+version: '3'
+services:
+  esphome:
+    container_name: climat_guardian_sensor
+    image: esphome/esphome
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /dev/ttyUSB0:/dev/ttyUSB0 
+    restart: always
+    privileged: true
+    network_mode: host
